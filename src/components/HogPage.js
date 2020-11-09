@@ -7,7 +7,7 @@ const HogPage = (props) => {
       let pigImage = require(`../hog-imgs/${pigName}.jpg`)
     return (
         <div>
-            <img src={pigImage} class="ui inverted vertical masthead center aligned segment"/>
+            <img src={pigImage} class="ui inverted vertical masthead center aligned segment" alt={pigName}/>
             <div class="ui text container">
                 <h1 class="ui inverted header">
                     {hog.name}
